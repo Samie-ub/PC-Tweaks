@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+ 
+    <link rel="stylesheet" href="./styles.css" />
+    <title>PC Tweaks</title>
+  </head>
+  <body id="animated">
+    <section class="left-side">
+      <nav>
+        <a href="#">
+          <img src="./assets/logo.png" alt="logo" />
+        </a>
+      </nav>
+      <div class="sidebar-container">
+        <div class="navigation-link">
+          <ul>
+            <li>
+              <a href="#"><img src="./assets/home-white.png" alt="icon" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/game-white.png" alt="icon" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-link">
+          <a href="#">
+            <img src="./assets/discord.png" alt="discord" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="right-side">
+      <div class="right-header">
+        <div class="header-links">
+          <ul>
+            <li>
+              <a href="#">Device</a>
+            </li>
+            <li>
+              <a href="#">Spoofer</a>
+            </li>
+            <li>
+              <a href="#">Miscellaneous</a>
+            </li>
+          </ul>
+        </div>
+        <div class="toggle"></div>
+      </div>
+      <div class="code-container"></div>
+      <div class="buttons">
+        <button>Permanent Spoof</button>
+        <button>Asus Spoof</button>
+        <button>Mac Spoof</button>
+      </div>
+    </section>
+    <!-- <section class="space"></section> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script> 
+<script>
+VANTA.NET({
+  el: "#animated",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+</script>
+  </body>
+</html>
